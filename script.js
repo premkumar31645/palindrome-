@@ -4,8 +4,8 @@ function Check() {
   const rstr = cstr.split("").reverse().join("").toLowerCase();
   const result = document.getElementById("result");
   if (cstr == rstr) {
-    result.innerHTML = "Yes, it is a Palindrom";
+    result.innerHTML = "Yes, it is a Palindrome";
   } else {
-    result.innerHTML = "Not a Palindrom";
+    result.innerHTML = "Not a Palindrome";
   }
 }
